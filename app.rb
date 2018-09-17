@@ -18,6 +18,5 @@ end
 get '/named-cat' do
   p params
   @name = params[:name]
-  @lastname = params[:lastname]
   erb(:index)
 end
